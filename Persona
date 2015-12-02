@@ -4,6 +4,7 @@ public class PersonaIII {
         this.nombre = nombre;
         this.e = e;
         this.p = p;
+        this.c=c;
     }
     
     
