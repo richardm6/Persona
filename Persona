@@ -1,0 +1,38 @@
+public class PersonaIII {
+
+    public PersonaIII(String nombre, int e, double p) {
+        this.nombre = nombre;
+        this.e = e;
+        this.p = p;
+    }
+    
+    
+  public String nombre;
+  private int e;
+  protected double p;
+  static boolean d;
+ 
+  
+  
+  public void Sumar (){
+     int a =(int)(e + p); 
+  }
+  
+  
+  private void Multiplicar(){
+      int b = (int) (e*p);
+  }
+
+  protected void Raiz (){
+      Math.sqrt(p);
+  }
+  
+  final int Resta (){
+      int r = (int) (e-p);
+      return  r;
+  }
+  
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
+}
