@@ -15,7 +15,7 @@ public class PersonaIII {
   
   
   public void Sumar (){
-     int a =(int)(e + p); 
+     int variable ae =(int)(e + p); 
   }
   
   
